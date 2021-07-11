@@ -1,0 +1,3 @@
+> use helloworld
+
+> db.createCollection("students")

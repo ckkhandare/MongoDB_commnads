@@ -1,0 +1,11 @@
+> db.student.find({})
+> db.student.find({},{_id:0})
+> db.student.find({},{_id:0}).limit(3)
+> db.student.find({}).sort({_id:1})
+> db.student.find({major:"Bio"},{_id:0})
+> db.student.find({$or:[{name:"rajiv"},{major:"VFX"}]},{_id:0})
+
+> db.student.find({gpa:{$gt:4.5}},{_id:0})
+> db.student.find({gpa:{$lte:4.5}},{_id:0})
+
+> db.student.find({name:{$in:["kate","claire"]}},{_id:0})

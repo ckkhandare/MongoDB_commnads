@@ -1,0 +1,20 @@
+###one
+> db.student.insertOne({_id:2 ,name:"john",major:"science",gpa:"4.5"})
+> db.student.insertOne({_id:2 ,name:"john",major:"science",gpa:"4.5"})
+
+###array
+> db.student.insertOne({_id:3,name:"Phil",major:["Hist","geog"],gpa:4.6})
+
+###date
+> db.student.insertOne({_id:4,name:"shivaji",major:"Math",date: new Date("2021-02-09")})
+
+###dict
+> db.student.insertOne({_id:10,name:"rahul",contact:{phone:"9767023372",email:"something@gmail.com"},major:"VFX"})
+
+###many
+db.student.insertMany([
+{_id:6 ,name:"ravi",major:"science",gpa:"4.5"},
+{_id:7,name:"sonu",major:["Hist","geog"],gpa:4.6},
+{_id:8,name:"rajiv",major:"Math",date: new Date("2018-06-03")},
+{_id:9,name:"rakesh",contact:{phone:"757848563",email:"some@gmail.com"},major:"ART"}
+])
