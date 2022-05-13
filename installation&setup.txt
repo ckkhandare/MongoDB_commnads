@@ -1,0 +1,6 @@
+Download and install community version
+Check mongo db compus will installation
+create C:/data/db/  folder path
+add environment path varialble C:....../bin
+1st CMD  commands - mongo --version, mongod --dbpath / 
+2nd CMD commands - mongo --host localhost:27017 and continue with this CMD for commands
